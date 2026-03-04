@@ -428,10 +428,10 @@ td strong, td b { color: var(--accent); font-weight: 600; }
 <section class="slide slide--cover active" data-slide="1">
   <div class="slide-inner">
     <p class="cover-tag">PERSONAL KNOWLEDGE MANAGEMENT</p>
-    <h1 class="cover-title">DotBrain v4</h1>
+    <h1 class="cover-title">DotBrain</h1>
     <p class="cover-sub">Built for Humans. Optimized for AI.</p>
     <div class="cover-line"></div>
-    <p class="cover-meta">2026.03 &middot; hwai</p>
+    <p class="cover-meta">2026.03 &middot; hwaa</p>
   </div>
 </section>
 
@@ -439,33 +439,33 @@ td strong, td b { color: var(--accent); font-weight: 600; }
 <section class="slide" data-slide="2">
   <div class="slide-inner">
     <p class="slide-label">Agenda</p>
-    <h2 class="slide-title">15분 발표 구성</h2>
+    <h2 class="slide-title">목차</h2>
     <div class="agenda">
       <div class="agenda-item" onclick="goTo(3)">
         <span class="agenda-num">01</span>
         <div class="agenda-text">
-          <span>세션 전환 + 문제 정의 (약 3분)</span>
+          <span>문제 정의</span>
           <span>수집 이후 단계: AI가 이해하고 활용하는 지식베이스</span>
         </div>
       </div>
       <div class="agenda-item" onclick="goTo(6)">
         <span class="agenda-num">02</span>
         <div class="agenda-text">
-          <span>원칙과 구조 (약 4분)</span>
+          <span>원칙과 구조</span>
           <span>Human-Readable + AI-Optimized, PARA 기반 설계</span>
         </div>
       </div>
       <div class="agenda-item" onclick="goTo(9)">
         <span class="agenda-num">03</span>
         <div class="agenda-text">
-          <span>작동 방식 (약 4분)</span>
+          <span>작동 방식</span>
           <span>자동 분류, 메타데이터, 연결, 품질 유지</span>
         </div>
       </div>
       <div class="agenda-item" onclick="goTo(12)">
         <span class="agenda-num">04</span>
         <div class="agenda-text">
-          <span>간단 데모 + 정리 (약 4분)</span>
+          <span>시연과 기대 효과</span>
           <span>실행 흐름 시연 후 기대효과와 도입 포인트</span>
         </div>
       </div>
@@ -946,7 +946,7 @@ var ACTS = [
   },
   {
     title: '\uC2DC\uB9E8\uD2F1 \uB9C1\uD06C',
-    msg: '\uD0DC\uADF8\uC640 \uD504\uB85C\uC81D\uD2B8 \uAE30\uBC18\uC73C\uB85C \uAD00\uB828 \uB178\uD2B8\uB97C \uC790\uB3D9 \uC5F0\uACB0\uD569\uB2C8\uB2E4',
+    msg: '\uD0DC\uADF8/\uD504\uB85C\uC81D\uD2B8 + \uBB38\uC11C \uB9E5\uB77D \uAE30\uBC18\uC73C\uB85C \uAD00\uB828 \uB178\uD2B8\uB97C \uC5F0\uACB0\uD558\uACE0, \uB9C1\uD06C \uADFC\uAC70\uB97C \uD568\uAED8 \uAE30\uB85D\uD569\uB2C8\uB2E4',
     lines: [
       ['cmt', '# \uC2DC\uB9E8\uD2F1 \uB9C1\uD06C \uBD84\uC11D'],
       ['cmd', '$ dotbrain link --analyze'],
@@ -956,14 +956,17 @@ var ACTS = [
       ['cmt', '# \uD6C4\uBCF4 \uC0DD\uC131'],
       ['ok',  '\u2192 "\uD22C\uC790\uC804\uB7B5-\uB9AC\uC11C\uCE58.md" \u2194 "\uD3EC\uD2B8\uD3F4\uB9AC\uC624-\uC124\uACC4.md"'],
       ['inf', '  shared tags: [investment, strategy] | same project'],
+      ['inf', '  context: "\uB9AC\uBC38\uB7F0\uC2F1 \uC2E4\uD589 \uC804\uB7B5, \uB9AC\uC2A4\uD06C \uBD84\uC0B0, \uC790\uAE08 \uBC30\uBD84 \uADFC\uAC70 \uACF5\uC720"'],
       ['inf', '  confidence: 0.87'],
       ['gap', ''],
-      ['cmt', '# Related Notes \uC0BD\uC785'],
-      ['cmd', '$ insert related notes...'],
+      ['cmt', '# Related Notes \uC0BD\uC785 + \uB9E5\uB77D \uC124\uBA85 \uCD94\uAC00'],
+      ['cmd', '$ insert related notes --with-context'],
       ['ok',  '\u2192 ## Related Notes'],
       ['ok',  '\u2192 - [[\uD3EC\uD2B8\uD3F4\uB9AC\uC624-\uC124\uACC4]] (project \xB7 shared tags)'],
+      ['inf', '    \u21B3 \uB9E5\uB77D: \uAC19\uC740 Project(\uD22C\uC790\uC5F0\uAD6C), \uACF5\uD1B5 \uD0DC\uADF8 4\uAC1C, "\uB9AC\uBC38\uB7F0\uC2F1" \uC139\uC158 \uC9C1\uC811 \uCC38\uC870'],
       ['ok',  '\u2192 - [[\uC2DC\uC7A5\uBD84\uC11D-2026Q1]] (reference \xB7 tag overlap)'],
-      ['ok',  '\u2713 12 new links created across 847 notes']
+      ['inf', '    \u21B3 \uB9E5\uB77D: Q1 \uAC70\uC2DC\uC9C0\uD45C \uADFC\uAC70 \uBB38\uC11C\uB85C, \uD604\uC7AC \uB178\uD2B8\uC758 "\uAC00\uC815" \uB2E8\uB77D\uACFC \uC5F0\uACB0'],
+      ['ok',  '\u2713 12 new links created with context notes']
     ],
     res: ['ok', '\uC2DC\uB9E8\uD2F1 \uB9C1\uD06C \uC644\uB8CC \u2014 12\uAC1C \uC0C8 \uC5F0\uACB0 \uC0DD\uC131']
   }
